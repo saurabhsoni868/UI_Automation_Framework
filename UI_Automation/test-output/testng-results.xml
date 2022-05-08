@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="4557" started-at="2022-05-08T13:07:43 IST" finished-at="2022-05-08T13:07:47 IST">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="4557" started-at="2022-05-08T13:07:43 IST" finished-at="2022-05-08T13:07:47 IST">
+      <class name="testCases.testDemo">
+        <test-method status="PASS" signature="StepsBeforeRunnigSuite()[pri:0, instance:testCases.testDemo@46daef40]" name="StepsBeforeRunnigSuite" is-config="true" duration-ms="6" started-at="2022-05-08T13:07:43 IST" finished-at="2022-05-08T13:07:43 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- StepsBeforeRunnigSuite -->
+        <test-method status="PASS" signature="LaunchBrowser()[pri:0, instance:testCases.testDemo@46daef40]" name="LaunchBrowser" is-config="true" duration-ms="2307" started-at="2022-05-08T13:07:43 IST" finished-at="2022-05-08T13:07:45 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LaunchBrowser -->
+        <test-method status="PASS" signature="beforeTestClass()[pri:0, instance:testCases.testDemo@46daef40]" name="beforeTestClass" is-config="true" duration-ms="1363" started-at="2022-05-08T13:07:45 IST" finished-at="2022-05-08T13:07:46 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTestClass -->
+        <test-method status="PASS" signature="verifyApplicationURL()[pri:0, instance:testCases.testDemo@46daef40]" name="verifyApplicationURL" duration-ms="32" started-at="2022-05-08T13:07:46 IST" finished-at="2022-05-08T13:07:46 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyApplicationURL -->
+        <test-method status="PASS" signature="afterEachTest(org.testng.ITestResult)[pri:0, instance:testCases.testDemo@46daef40]" name="afterEachTest" is-config="true" duration-ms="79" started-at="2022-05-08T13:07:46 IST" finished-at="2022-05-08T13:07:46 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyApplicationURL status=SUCCESS method=testDemo.verifyApplicationURL()[pri:0, instance:testCases.testDemo@46daef40] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterEachTest -->
+        <test-method status="PASS" signature="shutdown()[pri:0, instance:testCases.testDemo@46daef40]" name="shutdown" is-config="true" duration-ms="725" started-at="2022-05-08T13:07:46 IST" finished-at="2022-05-08T13:07:47 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- shutdown -->
+        <test-method status="PASS" signature="StepsAfterRunnigSuite()[pri:0, instance:testCases.testDemo@46daef40]" name="StepsAfterRunnigSuite" is-config="true" duration-ms="0" started-at="2022-05-08T13:07:47 IST" finished-at="2022-05-08T13:07:47 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- StepsAfterRunnigSuite -->
+      </class> <!-- testCases.testDemo -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
